@@ -441,11 +441,26 @@ ul{
 	color: #ffffff;
 	transition: all 0.5s ease;
 }
+.footer-col .social-links .moon{
+  display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
 .footer-col .social-links .facebook:hover{
 	background-color: #3288c8;
 }
 .footer-col .social-links .youtube:hover{
 	background-color: #ff0000;
+}
+.footer-col .social-links .moon:hover{
+  background-color: #000;
 }
 .footer-col .address, .email-2{
 	color: #bbbbbb;
