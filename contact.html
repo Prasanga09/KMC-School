@@ -167,7 +167,12 @@
 <script type="text/javascript">
   var page = document.getElementById("wrapper");
   function pageTheme() {
-    page.className += " theme-black";
+    if (page.className == "theme-black") {
+      page.className += " theme-white";
+    }
+    else{
+      page.className += " theme-black";
+    }
   }
 </script>
 
