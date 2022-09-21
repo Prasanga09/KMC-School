@@ -486,6 +486,9 @@ ul{
 .theme-black{
   background-color: #000;
 }
+.theme-white{
+  background-color: var(--white-color);
+}
 ::-webkit-scrollbar{
   width: 8px;
 }
