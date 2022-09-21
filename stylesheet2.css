@@ -483,6 +483,9 @@ ul{
     width: 100%;
 }
 }
+.theme{
+  background-color: #000;
+}
 ::-webkit-scrollbar{
   width: 8px;
 }
