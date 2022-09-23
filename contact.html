@@ -169,15 +169,17 @@
   var timeEl = document.getElementByClassName("time");
   var linkEl = document.getElementByClassName("web_link");
   function themeChanger() {
-    if (page.style.background != "#000") {
+    if (page.classList != "dark-mode") {
       page.style.background = "#000";
       timeEl.style.color = "#fff";
       linkEl.style.color = "#888682";
+      document.page.classList.add('dark-mode');
     }
-    else if (page.style.background == "#000") {
+    else{
       page.style.background = "#fff";
       timeEl.style.color = "#000";
       linkEl.style.color = "#333";
+      document.page.classList.remove('dark-mode');
     }
   }
 </script>
