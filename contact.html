@@ -167,10 +167,10 @@
 <script type="text/javascript">
   var page = document.getElementById("wrapper");
   function pageTheme() {
-    if (page.className == "theme-black") {
+    if (page.className === "theme-black") {
       page.className += " theme-white";
     }
-    else if (page.className == "theme-white" || page.className == "wrapper") {
+    else if (page.className === "theme-white" || page.className === "wrapper") {
       page.className += " theme-black";
     }
   }
