@@ -483,26 +483,6 @@ ul{
     width: 100%;
 }
 }
-.theme-black{
-  background-color: #000;
-  transition: .5s;
-}
-.theme-black .time{
-  color: #fff;
-}
-.theme-black .web_link{
-  color: #888682;
-}
-.theme-white{
-  background-color: #fff;
-  transition: .5s;
-}
-.theme-white .time{
-  color: #000;
-}
-.theme-white .web_link{
-  color: #333;
-}
 ::-webkit-scrollbar{
   width: 8px;
 }

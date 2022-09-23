@@ -166,19 +166,19 @@
 </body>
 <script type="text/javascript">
   var page = document.getElementById("wrapper");
-  function pageTheme() {
-    if (page.className == "theme-black" && "wrapper") {
-      page.className = "wrapper";
-      page.className += " theme-white";
+  var timeEl = document.getElementByClassName("time");
+  var linkEl = document.getElementByClassName("web_link");
+  function themeChanger() {
+    if (page.className != "theme-black") {
+      page.style.background = "#000";
+      timeEl.style.color = "#fff";
+      linkEl.style.color = "#888682";
     }
-    else if (page.className == "theme-white" && "wrapper") {
-      page.className = "wrapper";
-      page.className += " theme-black";
+    else {
+      page.style.background = "#fff";
+      timeEl.style.color = "#000";
+      linkEl.style.color = "#333";
     }
-    else if (page.className == "wrapper") {
-      page.className += "theme-white";
-    }
-    loop
   }
 </script>
 
