@@ -485,21 +485,23 @@ ul{
 }
 .theme-black{
   background-color: #000;
+  transition: .5s;
 }
 .theme-black .time{
-  color: var(--white-color);
+  color: #fff;
 }
 .theme-black .web_link{
-  color: var(--text-color-light);
+  color: #888682;
 }
 .theme-white{
-  background-color: var(--white-color);
+  background-color: #fff;
+  transition: .5s;
 }
 .theme-white .time{
-  color: var(--black-color);
+  color: #000;
 }
 .theme-white .web_link{
-  color: var(--text-color-light);
+  color: #333;
 }
 ::-webkit-scrollbar{
   width: 8px;
