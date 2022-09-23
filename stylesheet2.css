@@ -340,13 +340,13 @@ h2{
   cursor: pointer;
 }
 .time{
-  color: var(--white-color);
+  color: var(--black-color);
   font-weight: 500;
   margin-top: 20px;
 }
 .web_link{
 	text-decoration: none;
-	color: var(--white-color);
+	color: var(--black-color);
 	position: relative;
 	transition: .5s;
 }
@@ -486,8 +486,20 @@ ul{
 .theme-black{
   background-color: #000;
 }
+.theme-black .time{
+  color: var(--white-color);
+}
+.theme-black .web_link{
+  color: var(--text-color-light);
+}
 .theme-white{
   background-color: var(--white-color);
+}
+.theme-white .time{
+  color: var(--black-color);
+}
+.theme-white .web_link{
+  color: var(--text-color-light);
 }
 ::-webkit-scrollbar{
   width: 8px;
