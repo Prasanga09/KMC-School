@@ -191,13 +191,13 @@
   </footer>
 </body>
 <script type="text/javascript">
-  const bodyEl = document.querySelector("body");
   const navEl = document.querySelector("nav")
+  const scroll = window.scrollTop
 
   window.addEventListener("scroll", function() {
-    if(bodyEl.scrollTop >= 20) {
+    if(scroll >= 20) {
       navEl.classList.add("nav-changed");
-    } else if (bodyEl.scrollTop === 0) {
+    } else if (scroll === 0) {
       navEl.classList.remove("nav-changed");
     }
   });
