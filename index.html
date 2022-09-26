@@ -195,9 +195,9 @@
   const navEl = document.querySelector("nav")
 
   window.addEventListener("scroll", function() {
-    if(bodyEl.scrollTop >= 30) {
+    if(bodyEl.scrollTop >= 20) {
       navEl.classList.add("nav-changed");
-    } else {
+    } else if (bodyEl.scrollTop === 0) {
       navEl.classList.remove("nav-changed");
     }
   });
