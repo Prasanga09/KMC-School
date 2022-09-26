@@ -146,7 +146,6 @@
           <div class="social-links">
             <a href="https://www.facebook.com/schoolkmcian" class="facebook"><i class="bx bxl-facebook"></i></a>
             <a href="https://www.youtube.com/channel/UCfasNOnMU9McyUHh8cYls2w" class="youtube"><i class='bx bxl-youtube'></i></a>
-            <span onclick="themeChanger()"><i class='bx bx-moon'></i></span>
           </div>
         </div>
         <div class="footer-col">
@@ -164,23 +163,5 @@
     </div>
   </footer>
 </body>
-<script type="text/javascript">
-  var page = document.getElementById("wrapper");
-  var timeEl = document.getElementByClassName("time");
-  var linkEl = document.getElementByClassName("web_link");
-  function themeChanger() {
-    if (page.className != "dark-mode") {
-      page.style.background = "#000";
-      timeEl.style.color = "#fff";
-      linkEl.style.color = "#888682";
-      document.page.classList.add('dark-mode');
-    } else if (page.className === "wrapper") {
-      page.style.background = "#fff";
-      timeEl.style.color = "#000";
-      linkEl.style.color = "#333";
-      document.page.classList.remove('dark-mode');
-    }
-  }
-</script>
 
 </html>
