@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="swiper-bundle.min.css">
   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <link rel="icon" href="icon.jpg">
 </head>
 
@@ -191,16 +192,10 @@
   </footer>
 </body>
 <script type="text/javascript">
-  const navEl = document.querySelector("nav")
-  const scroll = window.scrollTop
-
-  window.addEventListener("scroll", function() {
-    if(scroll >= 200) {
-      navEl.classList.add("nav-changed");
-    } else {
-      navEl.classList.remove("nav-changed");
-    }
-  });
-  console.log("You are not permitted to copy any of the code present in this website, if we found you doing so, we may ban you from our website. This is strictly prohibited and we ask you not to visit the source code page!");
+  scroll = window.scrollYOffSet;
+  navEl = document.querySelector("nav")
+  if (scroll >= 20) {
+    navEl.classList.toggle("nav-changed")
+  }
 </script>
 </html>
