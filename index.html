@@ -195,7 +195,9 @@
   scroll = window.scrollYOffSet;
   navEl = document.querySelector("nav")
   if (scroll >= 20) {
-    navEl.classList.toggle("nav-changed")
+    navEl.className = "nav-changed";
+  } else {
+    navEl.classList.toggle("nav-changed");
   }
 </script>
 </html>
