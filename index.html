@@ -192,12 +192,12 @@
   </footer>
 </body>
 <script type="text/javascript">
-  scroll = window.scrollYOffSet;
-  navEl = document.querySelector("nav")
+  const scroll = window.scrollYOffSet;
+  const navEl = document.querySelector("nav");
   if (scroll >= 20) {
     navEl.className = "nav-changed";
   } else {
-    navEl.classList.toggle("nav-changed");
+    navEl.classList.remove("nav-changed");
   }
 </script>
 </html>
