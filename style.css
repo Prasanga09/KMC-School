@@ -477,7 +477,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: rgba(0,0,0,0);
+	color: var(--text-color);
 	text-transform: capitalize;
 	margin-bottom: 3.5rem;
 	font-weight: var(--medium-font);
@@ -500,7 +500,7 @@ ul{
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 1rem;
-  color: #bbbbbb;
+  color: #333;
   font-weight: var(--regular-font);
   font-size: var(--normal-font);
 }
@@ -530,13 +530,13 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links .facebook:hover{
-	background-color: #3288c8;
+	background-color: #bbbbbb;
 }
 .footer-col .social-links .youtube:hover{
 	background-color: #ccc;
 }
 .footer-col .address, .email-2{
-	color: #bbbbbb;
+	color: #333;
   cursor: inherit;
 	text-decoration: none;
 }
