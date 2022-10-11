@@ -477,7 +477,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: var(--white-color);
+	color: rgba(0,0,0,0);
 	text-transform: capitalize;
 	margin-bottom: 3.5rem;
 	font-weight: var(--medium-font);
@@ -490,7 +490,7 @@ ul{
 	bottom: -1rem;
 	background-color: #e91e63;
 	height: 3px;
-  border-radius: 3rem;
+  	border-radius: 3rem;
 	box-sizing: border-box;
 	width: 2rem;
 }
@@ -508,19 +508,19 @@ ul{
 .footer-col ul li a{
 	text-transform: capitalize;
 	text-decoration: none;
-	color: #bbbbbb;
+	color: var(--text-color);
 	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: var(--white-color);
+	color: #ccc;
 	padding-left: 8px;
 }
 .footer-col .social-links a{
 	display: inline-block;
 	height: 4rem;
 	width: 4rem;
-	background-color: rgba(255,255,255,0.2);
+	background-color: var(--text-color);
   font-size: var(--normal-font);
 	margin:0 10px 10px 0;
 	text-align: center;
@@ -533,7 +533,7 @@ ul{
 	background-color: #3288c8;
 }
 .footer-col .social-links .youtube:hover{
-	background-color: var(--prime-color);
+	background-color: #ccc;
 }
 .footer-col .address, .email-2{
 	color: #bbbbbb;
