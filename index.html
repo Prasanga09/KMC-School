@@ -194,8 +194,8 @@
 <script type="text/javascript">
   const scroll = window.scrollYOffSet;
   const navEl = document.querySelector("nav");
-  if (scroll >= 20) {
-    navEl.classList.add("nav-changed");
+  if (scroll >= 5) {
+    navEl.classList.toggle("nav-changed");
   } else {
     navEl.classList.remove("nav-changed");
   }
