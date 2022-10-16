@@ -421,32 +421,58 @@ nav .navbar .links li:hover .js-sub-menu {
   color: var(--prime-color-hover);
   transition: var(--tran--2);
 }
+.content {
+  display: grid;
+  grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr [secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 1fr [firstrow-end secondrow-start] 1fr [secondrow-end content-end];
+  margin: 0 5rem;
+  line-height: 2;
+  grid-gap: 3rem;
+} 
 .aboutus, .teaching-learning, .facilities, .achievements{
-  margin-left: 5rem;
-  margin-right: 5rem;
-  align-items: center;
-  justify-content: center;
-  display: flex;
   text-align: justify;
-  flex-wrap: wrap;
-  border-bottom: 2px solid #bbbbbb;
+  border: 2px solid var(--prime-color);
   font-size: var(--normal-font);
+  padding: 2rem 4rem;
+}
+
+.aboutus {
+  grid-column: firstcolumn;
+  grid-row: firstrow;
+  height: 75%;
+  margin-bottom: 0;
+}
+.teaching-learning {
+  grid-column: secondcolumn;
+  grid-row: firstrow;
+  height: 90%;
+}
+.facilities {
+  grid-column: firstcolumn;
+  grid-row: secondrow;
+  height: 90%;
+}
+.achievements {
+  grid-column: secondcolumn;
+  grid-row: secondrow;
+  height: 95%;
 }
 .content a{
   color: var(--prime-color);
   text-decoration: none;
   position: relative;
   font-size: var(--normal-font);
+  margin-bottom: 0;
 }
 .content a::before{
   content: '';
-	position: absolute;
-	left:0;
-	bottom: -5px;
-	background-color: red;
-	height: 3px;
-	box-sizing: border-box;
-	width: 0;
+  position: absolute;
+  left:0;
+  bottom: -5px;
+  background-color: red;
+  height: 3px;
+  box-sizing: border-box;
+  width: 0;
   transition: var(--tran--5);
 }
 .content a:hover::before{
