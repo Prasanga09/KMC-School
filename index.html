@@ -192,10 +192,9 @@
   </footer>
 </body>
 <script type="text/javascript">
-  const scroll = window.scrollYOffSet;
-  const navEl = document.querySelector("nav");
-  if (scroll >= 5) {
-    navEl.classList.toggle("nav-changed");
+  const arrowToTop = document.getElementById("btnScrollTop");
+  arrowToTop.onclick = () => {
+    window.scrollTo(0,0);
   }
 </script>
 </html>
