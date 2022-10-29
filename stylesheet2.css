@@ -3,50 +3,7 @@ By Group-C :>
 Thank you for visiting!
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-:root{
-  --prime-color: #d82521;
-  --prime-color-hover: #cd0f0b;
-  --white-color: #fff;
-  --black-color: #000;
-  --text-color: #333;
-  --tran--2: 0.2s;
-  --tran--3: 0.3s;
-  --tran--5: 0.5s;
-  --tran--8: 0.8s;
-  --body-font: 'Poppins', sans-serif;
-  --big-font: 40px;
-  --h1-font: 36px;
-  --h2-font: 24px;
-  --h3-font: 2px;
-  --h4-font: 18px;
-  --normal-font: 16px;
-  --small-font: 14px;
-  --smaller-font: 13px;
-  --regular-font: 400;
-  --medium-font: 500;
-  --semi-bold-font: 600;
-  --text-color-light: #888682;
-  --border-color: #484848;
-}
-@media screen and (max-width: 990px) {
-  :root{
-    --big-font: 35px;
-    --h1-font: 24px;
-    --h2-font: 20px;
-    --h3-font: 18px;
-    --h4-font: 16px;
-    --normal-font: 15px;
-    --small-font: 13px;
-    --smaller-font: 12px;
-  }
-}
-*{
-	margin:0;
-	padding:0;
-	scroll-behavior: smooth;
-	box-sizing: border-box;
-	font-family: var(--body-font);
-}
+@import url('style.css');
 body:not(footer){
   align-items: center;
   justify-content: space-between;
