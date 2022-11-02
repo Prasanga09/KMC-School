@@ -568,10 +568,10 @@ ul{
 	transition: all 0.5s ease;
 }
 .footer-col .social-links .facebook:hover{
-	background-color: #bbbbbb;
+	background-color: #4267B2;
 }
 .footer-col .social-links .youtube:hover{
-	background-color: #ccc;
+	background-color: #FF0000;
 }
 .footer-col .address, .email-2{
 	color: #333;
