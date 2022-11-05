@@ -111,22 +111,28 @@
     </div>
   </div>
    <script>
-    const formEl = document.getElementById("form");
-    const requiredInput = document.querySelectorAll("input.required")
-    form.addEventListener("submit", () => {
-      if (requiredInput.value === "" || requiredInput.value === " ") {
-        return;
-      } else {
-        sendNotification();
-      }
-    })
-    function sendNotification() {
-      Notification.requestPermission().then(permission => {
-        if (permission === "granted") {
-          new Notification("Your form was submitted successfully!", {
-            body: "You will get an email from the school after we have reviewed the form!",
-            icon: "logo.png",
-            tag: "Submission Message"
+        const formEl = document.getElementById("form");
+        const requiredInputs = document.querySelectorAll("input.required");
+        function checkformIsFilled(inputs) {
+          for(const input of inputs) {
+            if (input.value == "" || input.value == " ") {
+              return null;
+            } else {
+              return true;
+            }
+          }
+        };
+        form.addEventListener("submit", sendNotification())
+        function sendNotification() {
+          if (!checkformIsFilled(requiredInputs)) return;
+          Notification.requestPermission().then(permission => {
+            if (permission === "granted") {
+              new Notification("Your form was submitted successfully!", {
+                body: "You will get an email from the school after we have reviewed the form!",
+                icon: "logo.png",
+                tag: "Submission Message"
+              });
+            }
           });
         }
         document.addEventListener("visibilitychange", () => {
@@ -137,9 +143,7 @@
               tag: "Warning Message"
             })
           }
-        })
-      })
-    }
+        });
   </script>
   </body>
 
