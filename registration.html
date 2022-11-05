@@ -110,6 +110,9 @@
     </div>
   </div>
 <script>
+    const formEl = document.getElementById("form");
+    const requiredInputs = document.querySelectorAll("input.required")
+    function checkformIsFilled(inputs) {
       for(const input of inputs) {
         if (input.value == "" || input.value == " ") {
           return null;
@@ -118,7 +121,7 @@
         }
       }
     }
-    form.addEventListener("submit", sendNotification)
+    formEl.addEventListener("submit", sendNotification)
     function sendNotification() {
       if (!checkformIsFilled(requiredInputs)) return;
       Notification.requestPermission().then(permission => {
