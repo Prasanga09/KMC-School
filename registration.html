@@ -12,7 +12,7 @@
   <div class="container">
     <div class="title" id="txt">KMC Online Admission Form</div>
     <div class="content">
-      <form method="POST" id="form">
+      <form action="#" method="POST" id="form">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name</span>
@@ -110,16 +110,17 @@
     </div>
   </div>
 <script>
+   Notification.requestPermission().then(permission => {
+       if (permission === "granted") {
+          return;
+       }
+     });
     const formEl = document.getElementById("form");
     formEl.addEventListener("submit", sendNotification);
     function sendNotification() {
-      Notification.requestPermission().then(permission => {
-        if (permission === "granted") {
-          new Notification("Your form was submitted successfully!", {
-            body: "You will get an email from the school after we have reviewed the form!",
-            icon: "logo.png"
-          });
-        }
+      new Notification("Your form was submitted successfully!", {
+        body: "You will get an email from the school after we have reviewed the form!",
+        icon: "logo.png"
       });
     };
     document.addEventListener("visibilitychange", () => {
