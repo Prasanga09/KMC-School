@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <title>KMC School</title>
+  <title>Admission Form | KMC School</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" href="icon.jpg">
@@ -114,7 +114,7 @@
     formEl.addEventListener("submit", sendNotification);
     function sendNotification() {
       Notification.requestPermission().then(permission => {
-        if (permission == "granted") {
+        if (permission === "granted") {
           new Notification("Your form was submitted successfully!", {
             body: "You will get an email from the school after we have reviewed the form!",
             icon: "logo.png"
