@@ -111,16 +111,16 @@
     </div>
   </div>
    <script>
-     const submitBtn = document.getElementById("submission");
-     submitBtn.addEventListener("click", () => {
-     Notification.requestPermission().then(permission => {
-       if (permission === "granted") {
-         new Notification("Your form was submitted successfully!", {
-           body: "You will get an email from the school after we have reviewed the form!"
-           });
-         }
-       })
-     })
+    const formEl = document.getElementById("form");
+    form.addEventListener("submit", () => {
+       Notification.requestPermission().then(permission => {
+          if (permission === "granted") {
+          new Notification("Your form was submitted successfully!", {
+            body: "You will get an email from the school after we have reviewed the form!"
+            });
+          }
+        })
+      })
   </script>
   </body>
 
