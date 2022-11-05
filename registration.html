@@ -7,6 +7,18 @@
   <link rel="stylesheet" href="stylesheet.css">
   <link rel="icon" href="icon.jpg">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>
+      const submitBtn = document.getElementById("submission");
+      submitBtn.addEventListener("click", () => {
+      Notification.requestPermission().then(permission => {
+        if (permission === "granted") {
+          new Notification("Your form was submitted successfully!", {
+            body: "You will get an email from the school after we have reviewed the form!"
+            });
+          }
+        })
+      })
+  </script>
 </head>
 <body>
   <div class="container">
