@@ -121,7 +121,7 @@
           }
         }
       }
-      form.addEventListener("submit", sendNotification)
+      formEl.addEventListener("submit", sendNotification)
       function sendNotification() {
         if (!checkformIsFilled(requiredInputs)) return;
         Notification.requestPermission().then(permission => {
