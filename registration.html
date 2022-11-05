@@ -12,7 +12,7 @@
   <div class="container">
     <div class="title" id="txt">KMC Online Admission Form</div>
     <div class="content">
-      <form action="#" id="form">
+      <form method="POST" id="form">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name</span>
@@ -125,7 +125,7 @@
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "hidden") {
         new Notification("Do Not Exit The Form", {
-          body: "Please do not exit the form, we will lose your precious data and concentrate on the form rather than going to other websites or tabs, etc.",
+          body: "Please do not exit the form, we will lose your data. Also concentrate on the form rather than going to other websites or tabs",
           icon: "logo.png"
         })
       }
