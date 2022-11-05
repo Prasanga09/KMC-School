@@ -111,27 +111,39 @@
     </div>
   </div>
    <script>
-        const formEl = document.getElementById("form");
-        form.addEventListener("submit", sendNotification())
-        function sendNotification() {
-          Notification.requestPermission().then(permission => {
-            if (permission === "granted") {
-              new Notification("Your form was submitted successfully!", {
-                body: "You will get an email from the school after we have reviewed the form!",
-                icon: "logo.png",
-              });
-            }
+    const formEl = document.getElementById("form");
+    const requiredInputs = document.querySelectorAll("input.required")
+    function checkformIsFilled(inputs) {
+      for(const input of inputs) {
+        if (input.value == "" || input.value == " ") {
+          return null;
+        } else {
+          return true;
+        }
+      }
+    }
+    formEl.addEventListener("submit", sendNotification())
+    function sendNotification() {
+      if (!checkformIsFilled(requiredInputs)) return;
+      Notification.requestPermission().then(permission => {
+        if (permission === "granted") {
+          new Notification("Your form was submitted successfully!", {
+            body: "You will get an email from the school after we have reviewed the form!",
+            icon: "logo.png",
+            tag: "Submission Message"
           });
         }
-        document.addEventListener("visibilitychange", () => {
-          if (document.visibilityState === "hidden") {
-            new Notification("Do Not Exit The Form", {
-              body: "Please do not exit the form, we will lose your precious data and concentrate on the form rather than going to other websites or tabs, etc.",
-              icon: "logo.png",
-              tag: "Warning Message"
-            })
-          }
-        });
+      });
+    };
+    document.addEventListener("visibilitychange", () => {
+      if (document.visibilityState === "hidden") {
+        new Notification("Do Not Exit The Form", {
+          body: "Please do not exit the form, we will lose your precious data and concentrate on the form rather than going to other websites or tabs, etc.",
+          icon: "logo.png",
+          tag: "Warning Message"
+        })
+      }
+    });
   </script>
   </body>
 
