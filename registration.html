@@ -5,7 +5,7 @@
   <title>Admission Form | KMC School</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./assets/styles/stylesheet.css">
-  <link rel="icon" href="./assets/images/logo.png">
+  <link rel="icon" href="./images/logo.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
@@ -120,14 +120,14 @@
     function sendNotification() {
       new Notification("Your form was submitted successfully!", {
         body: "You will get an email from the school after we have reviewed the form!",
-        icon: "logo.png"
+        icon: "./images/logo.png"
       });
     };
     document.addEventListener("visibilitychange", () => {
       if (document.visibilityState === "hidden") {
         new Notification("Do Not Exit The Form", {
           body: "Please do not exit the form, we will lose your data. Also concentrate on the form rather than going to other websites or tabs",
-          icon: "logo.png"
+          icon: "./images/logo.png"
         })
       }
     });
