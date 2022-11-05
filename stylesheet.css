@@ -17,7 +17,9 @@ body{
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background: linear-gradient(135deg, #c31432, #240b36);
+  background-image: url("img3.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 ::-webkit-scrollbar{
   width: 10px;
