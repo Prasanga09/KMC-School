@@ -103,27 +103,24 @@
             </label>
           </div>
         </div>
-        <div class="button">
-          <input type="submit" value="SUBMIT" id="submission" onclick="contentchanger()">
-        </div>
-        <span id="submit_text"></span>
+        <input type="submit" value="SUBMIT" id="submission">
       </form>
     </div>
   </div>
-   <script>
-    const formEl = document.getElementById("form");
-    formEl.addEventListener("submit", sendNotification())
-    function sendNotification() {
-      Notification.requestPermission().then(permission => {
-        if (permission === "granted") {
-          new Notification("Your form was submitted successfully!", {
-            body: "You will get an email from the school after we have reviewed the form!",
-            icon: "logo.png",
-            tag: "Submission Message"
+  <script>
+        const formEl = document.getElementById("form");
+        formEl.addEventListener("submit", sendNotification());
+        function sendNotification() {
+          Notification.requestPermission().then(permission => {
+            if (permission === "granted") {
+              new Notification("Your form was submitted successfully!", {
+                body: "You will get an email from the school after we have reviewed the form!",
+                icon: "logo.png",
+                tag: "Submission Message"
+              });
+            }
           });
-        }
-      });
-    };
+        };
   </script>
   </body>
 
