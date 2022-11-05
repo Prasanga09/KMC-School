@@ -111,19 +111,8 @@
   </div>
 <script>
     const formEl = document.getElementById("form");
-    const requiredInputs = document.querySelectorAll("input.required")
-    function checkformIsFilled(inputs) {
-      for(const input of inputs) {
-        if (input.value == "" || input.value == " ") {
-          return null;
-        } else {
-          return true;
-        }
-      }
-    }
     formEl.addEventListener("submit", sendNotification)
     function sendNotification() {
-      if (!checkformIsFilled(requiredInputs)) return;
       Notification.requestPermission().then(permission => {
         if (permission === "granted") {
           new Notification("Your form was submitted successfully!", {
