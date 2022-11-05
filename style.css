@@ -446,6 +446,7 @@ nav.nav-changed{
   margin-bottom: 0;
   background-color: #9c0b15;
   color: var(--white-color);
+  border: none;
   box-shadow: 3px 0 4px rgba(0,0,0,0.4);
 }
 .aboutus .kmcvidclip {
