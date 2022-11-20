@@ -12,7 +12,7 @@
   <div class="container">
     <div class="title" id="txt">KMC Online Admission Form</div>
     <div class="content">
-      <form id="form" method="POST" data-netlify="true" name="Admission Form">
+      <form id="form" method="POST" data-netlify="true" data-netlify-recaptcha="true" name="Admission">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name</span>
@@ -20,11 +20,11 @@
           </div>
           <div class="input-box">
             <span class="details">Father's Name</span>
-            <input type="text" placeholder="Enter your father's name" name="fname" required>
+            <input type="text" placeholder="Enter your father's name" name="father Name" required>
           </div>
           <div class="input-box">
             <span class="details">Mother's Name</span>
-            <input type="text" placeholder="Enter your mother's name" name="mname" required>
+            <input type="text" placeholder="Enter your mother's name" name="mother Name" required>
           </div>
           <div class="input-box">
             <span class="details">E-mail</span>
@@ -36,11 +36,11 @@
           </div>
           <div class="input-box">
             <span class="details">Guardian's Name</span>
-            <input type="text" placeholder="Enter your guardian's name" name="gname">
+            <input type="text" placeholder="Enter your guardian's name" name="guardian Name">
           </div>
           <div class="input-box">
             <span class="details">Guardian's Phone Number</span>
-            <input type="tel" placeholder="Enter your guardian's number" name="gphone">
+            <input type="tel" placeholder="Enter your guardian's number" name="guardian Phone">
           </div>
           <div class="input-box">
             <span class="details">Address</span>
@@ -48,7 +48,7 @@
           </div>
           <div class="input-box">
             <span class="details">Birthdate</span>
-            <input type="date" required name="bdate">
+            <input type="date" required name="Birthdate">
           </div>
           <div class="input-box">
             <span class="details">Course to be taken:</span>
