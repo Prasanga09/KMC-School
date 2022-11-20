@@ -12,43 +12,43 @@
   <div class="container">
     <div class="title" id="txt">KMC Online Admission Form</div>
     <div class="content">
-      <form id="form">
+      <form id="form" method="POST" data-netlify="true" name="Admission Form">
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name</span>
-            <input type="text" placeholder="Enter your name" required>
+            <input type="text" placeholder="Enter your name" name="name" required>
           </div>
           <div class="input-box">
             <span class="details">Father's Name</span>
-            <input type="text" placeholder="Enter your father's name" required>
+            <input type="text" placeholder="Enter your father's name" name="fname" required>
           </div>
           <div class="input-box">
             <span class="details">Mother's Name</span>
-            <input type="text" placeholder="Enter your mother's name" required>
+            <input type="text" placeholder="Enter your mother's name" name="mname" required>
           </div>
           <div class="input-box">
             <span class="details">E-mail</span>
-            <input type="email" placeholder="Enter your email">
+            <input type="email" placeholder="Enter your email" name="email">
           </div>
           <div class="input-box">
             <span class="details">Parent's Phone Number</span>
-            <input type="tel" placeholder="Enter your parent's number" required>
+            <input type="tel" placeholder="Enter your parent's number" name="phone" required>
           </div>
           <div class="input-box">
             <span class="details">Guardian's Name</span>
-            <input type="text" placeholder="Enter your guardian's name">
+            <input type="text" placeholder="Enter your guardian's name" name="gname">
           </div>
           <div class="input-box">
             <span class="details">Guardian's Phone Number</span>
-            <input type="tel" placeholder="Enter your guardian's number">
+            <input type="tel" placeholder="Enter your guardian's number" name="gphone">
           </div>
           <div class="input-box">
             <span class="details">Address</span>
-            <input type="text" placeholder="Enter your address" required>
+            <input type="text" placeholder="Enter your address" name="address" required>
           </div>
           <div class="input-box">
             <span class="details">Birthdate</span>
-            <input type="date" required>
+            <input type="date" required name="bdate">
           </div>
           <div class="input-box">
             <span class="details">Course to be taken:</span>
@@ -104,7 +104,7 @@
           </div>
         </div>
         <div class="button">
-          <input type="submit" value="SUBMIT" id="submission">
+          <input type="submit" value="SUBMIT" id="submission" name="submit">
         </div>
       </form>
     </div>
