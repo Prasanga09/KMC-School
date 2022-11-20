@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/assets/error.html"
+  status = 404
