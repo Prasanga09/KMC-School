@@ -279,6 +279,9 @@ ul{
   background-color: var(--prime-color);
   color: var(--white-color);
 }
+.contain {
+  display: block;
+}
 .link {
   color: red;
   font-size: 1.8rem;
