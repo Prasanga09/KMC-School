@@ -320,7 +320,7 @@ nav.nav-changed{
   border: 2px solid var(--prime-color);
   font-size: var(--normal-font);
   padding: 1.5rem 3rem;
-  background-color: #fff;
+  background-color: #f2f2f2;
 }
 .teaching-learning, .facilities, .achievements {
   box-shadow: 3px 3px 4px rgba(0,0,0,.4);
