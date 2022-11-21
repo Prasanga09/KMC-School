@@ -313,7 +313,7 @@ nav.nav-changed{
   line-height: 3;
   grid-gap: 2rem;
   padding: 1rem 0;
-  background-color: #f2f2f2;
+  background-color: #fff;
 } 
 .aboutus, .teaching-learning, .facilities, .achievements{
   text-align: justify;
