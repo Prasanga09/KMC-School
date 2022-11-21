@@ -16,11 +16,11 @@
         <div class="user-details">
           <div class="input-box">
             <span class="details">Full Name*</span>
-            <input type="text" placeholder="Enter your name" name="name" required>
+            <input type="text" placeholder="Enter your name" name="name" maxlength="20" required>
           </div>
           <div class="input-box">
             <span class="details">Father's Name*</span>
-            <input type="text" placeholder="Enter your father's name" name="father Name" required>
+            <input type="text" placeholder="Enter your father's name" name="father Name" maxlength="20" required>
           </div>
           <div class="input-box">
             <span class="details">Mother's Name*</span>
@@ -32,7 +32,7 @@
           </div>
           <div class="input-box">
             <span class="details">Parent's Phone Number*</span>
-            <input type="tel" placeholder="Enter your parent's number" name="phone" required>
+            <input type="phone" placeholder="Enter your parent's number" name="phone" maxlength="10" minlength="9" required>
           </div>
           <div class="input-box">
             <span class="details">Guardian's Name</span>
@@ -40,7 +40,7 @@
           </div>
           <div class="input-box">
             <span class="details">Guardian's Phone Number</span>
-            <input type="tel" placeholder="Enter your guardian's number" name="guardian Phone">
+            <input type="phone" placeholder="Enter your guardian's number" name="guardian Phone" minlength="9" maxlength="10">
           </div>
           <div class="input-box">
             <span class="details">Address*</span>
