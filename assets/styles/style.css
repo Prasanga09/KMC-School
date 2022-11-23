@@ -323,7 +323,8 @@ nav.nav-changed{
   font-size: var(--normal-font);
   padding: 1.5rem 3rem;
   line-height: 1.4rem;
-  height: 400px;
+  height: 40rem;
+  width: 20rem;
 }
 .teaching-learning, .facilities, .achievements, .aboutus {
   box-shadow: 0 2px 0 rgba(0,0,0,.4);
