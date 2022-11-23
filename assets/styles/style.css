@@ -377,6 +377,11 @@ nav.nav-changed{
     margin-bottom: 20px;
     font-size: 40px;
 }
+.contain-box iframe {
+    width: 75%;
+    height: 40vh;
+    border: 1px solid #000;
+}
 .contain-box #form #details {
     width: 280px;
     height: 40px;
