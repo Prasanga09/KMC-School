@@ -378,7 +378,7 @@ nav.nav-changed{
     flex-direction: column;
     height: 350px;
     text-align: center;
-    margin-top: 40px;
+    margin: 40px 25px 30px;
 }
 .contain-box h1 {
     text-transform: uppercase;
