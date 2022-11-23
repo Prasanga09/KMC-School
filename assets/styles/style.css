@@ -310,8 +310,7 @@ nav.nav-changed{
   display: grid;
   grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr [secondcolumn-end contentwidth-end];
   grid-template-rows: [content-start firstrow-start] 1.2fr [firstrow-end secondrow-start] 1.2fr [secondrow-end content-end];
-  line-height: 3;
-  grid-gap: 2rem;
+  grid-gap: 1.5rem;
   padding: 1rem 0;
   background-color: #fff;
 } 
@@ -329,15 +328,14 @@ nav.nav-changed{
 .aboutus {
   grid-column: firstcolumn;
   grid-row: firstrow;
-  line-height: 6rem;
   margin-bottom: 0;
   background-color: #A61B24;
   color: var(--white-color);
   border: none;
   box-shadow: 3px 0 4px rgba(0,0,0,0.4);
 }
-.aboutus .kmcvidclip {
-  height: 80rem;
+.kmcvidclip {
+  height: 40rem;
   width: 65rem;
 }
 .teaching-learning {
