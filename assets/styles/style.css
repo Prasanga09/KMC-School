@@ -378,6 +378,10 @@ nav.nav-changed{
   align-items: center;
   justify-content: center;
   text-align: center;
+  margin-top: 25px;
+}
+.vidarea h3 {
+  font-size: 30px;
 }
 .contain-box {
     display: flex;
