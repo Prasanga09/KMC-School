@@ -374,6 +374,7 @@ nav.nav-changed{
   width: 100%
 }
 .line {
+  margin-top: 35px;
   height: 5px;
   background-color: var(--prime-color);
   width: 100vw;
@@ -383,7 +384,7 @@ nav.nav-changed{
     flex-direction: column;
     height: 350px;
     text-align: center;
-    margin: 40px 25px 30px;
+    margin: 30px 25px;
 }
 .contain-box h1 {
     text-transform: uppercase;
