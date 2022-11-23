@@ -368,7 +368,7 @@ nav.nav-changed{
 .contain-box {
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 450px;
     text-align: center;
     margin: 30px 25px 50px;
 }
