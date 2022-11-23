@@ -309,7 +309,7 @@ nav.nav-changed{
 .content {
   display: grid;
   grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr [secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 1.2fr [firstrow-end secondrow-start] 1.2fr [secondrow-end thirdrow-start] 1.2fr [thirdrow-end content-end];
+  grid-template-rows: [content-start firstrow-start] 1.2fr [firstrow-end secondrow-start] 1.2fr [secondrow-end content-end];
   line-height: 3;
   grid-gap: 2rem;
   padding: 1rem 0;
@@ -328,7 +328,7 @@ nav.nav-changed{
 
 .aboutus {
   grid-column: firstcolumn;
-  grid-row: content;
+  grid-row: firstrow;
   line-height: 6rem;
   margin-bottom: 0;
   background-color: #A61B24;
@@ -345,12 +345,12 @@ nav.nav-changed{
   grid-row: firstrow;
 }
 .facilities {
-  grid-column: secondcolumn;
+  grid-column: firstcolumn;
   grid-row: secondrow;
 }
 .achievements {
   grid-column: secondcolumn;
-  grid-row: thirdrow;
+  grid-row: secondrow;
 }
 .content a{
   color: var(--prime-color);
