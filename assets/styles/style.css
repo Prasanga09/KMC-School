@@ -373,6 +373,12 @@ nav.nav-changed{
   background-color: var(--prime-color);
   width: 100vw;
 }
+.vidarea {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .contain-box {
     display: flex;
     flex-direction: column;
