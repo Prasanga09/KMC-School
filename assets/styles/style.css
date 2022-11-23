@@ -308,8 +308,8 @@ nav.nav-changed{
 }
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 2frfirstcolumn-end secondcolumn-start] 2fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 2fr[firstrow-end secondrow-start] 2fr[secondrow-end content-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 2fr [firstcolumn-end secondcolumn-start] 2fr[secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 2fr [firstrow-end secondrow-start] 2fr[secondrow-end content-end];
   grid-gap: 1rem;
   padding: 1rem 2rem;
   background-color: #fff;
