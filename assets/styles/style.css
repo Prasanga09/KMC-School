@@ -314,6 +314,9 @@ nav.nav-changed{
   padding: 1rem 2rem;
   background-color: #fff;
 } 
+.content > div h3 {
+  margin-bottom: 15px;
+}
 .aboutus, .teaching-learning, .facilities, .achievements{
   text-align: justify;
   border: 2px solid var(--prime-color);
