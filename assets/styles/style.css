@@ -308,8 +308,8 @@ nav.nav-changed{
 }
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 2fr 2fr [firstcolumn-end secondcolumn-start] 2fr 2fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 2fr 2fr 2fr[firstrow-end secondrow-start] 2fr 2fr 2fr[secondrow-end content-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 2frfirstcolumn-end secondcolumn-start] 2fr[secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 2fr[firstrow-end secondrow-start] 2fr[secondrow-end content-end];
   grid-gap: 1rem;
   padding: 1rem 2rem;
   background-color: #fff;
@@ -323,6 +323,7 @@ nav.nav-changed{
   font-size: var(--normal-font);
   padding: 1.5rem 3rem;
   line-height: 1.4rem;
+  height: 400px;
 }
 .teaching-learning, .facilities, .achievements, .aboutus {
   box-shadow: 0 2px 0 rgba(0,0,0,.4);
