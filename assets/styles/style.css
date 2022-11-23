@@ -320,8 +320,8 @@ nav.nav-changed{
   font-size: var(--normal-font);
   padding: 1.5rem 3rem;
 }
-.teaching-learning, .facilities, .achievements {
-  box-shadow: 3px 3px 4px rgba(0,0,0,.4);
+.teaching-learning, .facilities, .achievements, .aboutus {
+  box-shadow: 0 2px 0 rgba(0,0,0,.4);
   animation: fadeIn 4s;
 }
 
@@ -329,10 +329,8 @@ nav.nav-changed{
   grid-column: firstcolumn;
   grid-row: firstrow;
   margin-bottom: 0;
-  background-color: #A61B24;
   color: var(--white-color);
   border: none;
-  box-shadow: 3px 0 4px rgba(0,0,0,0.4);
 }
 .kmcvidclip {
   height: 40rem;
