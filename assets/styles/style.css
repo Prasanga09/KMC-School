@@ -373,6 +373,11 @@ nav.nav-changed{
 .content a:hover::before{
   width: 100%
 }
+.line {
+  height: 5px;
+  background-color: var(--prime-color);
+  width: 100vw;
+}
 .contain-box {
     display: flex;
     flex-direction: column;
