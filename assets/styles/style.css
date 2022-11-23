@@ -308,7 +308,7 @@ nav.nav-changed{
 }
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr [secondcolumn-end contentwidth-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 2fr [firstcolumn-end secondcolumn-start] 2fr [secondcolumn-end contentwidth-end];
   grid-template-rows: [content-start firstrow-start] 1.2fr [firstrow-end secondrow-start] 1.2fr [secondrow-end content-end];
   grid-gap: 1.5rem;
   padding: 1rem 0;
@@ -328,9 +328,6 @@ nav.nav-changed{
 .aboutus {
   grid-column: firstcolumn;
   grid-row: firstrow;
-  margin-bottom: 0;
-  color: var(--white-color);
-  border: none;
 }
 .kmcvidclip {
   height: 40rem;
