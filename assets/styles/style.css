@@ -309,8 +309,8 @@ nav.nav-changed{
 .content {
   display: grid;
   grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 2fr [firstrow-end secondrow-start] 2fr[secondrow-end content-end];
-  grid-gap: 1rem;
+  grid-template-rows: [content-start firstrow-start] 1fr [firstrow-end secondrow-start] 1fr[secondrow-end content-end];
+  grid-gap: .5rem;
   padding: 2rem 4rem;
   background-color: #fff;
 } 
@@ -323,8 +323,6 @@ nav.nav-changed{
   font-size: var(--normal-font);
   padding: 1.5rem 3rem;
   line-height: 1.7;
-  height: 40rem;
-  width: 40rem;
 }
 .teaching-learning, .facilities, .achievements, .aboutus {
   box-shadow: 0 2px 0 rgba(0,0,0,.4);
