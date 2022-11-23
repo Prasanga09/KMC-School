@@ -322,9 +322,9 @@ nav.nav-changed{
   border: 2px solid var(--prime-color);
   font-size: var(--normal-font);
   padding: 1.5rem 3rem;
-  line-height: 1.4;
+  line-height: 1.7;
   height: 40rem;
-  width: 30rem;
+  width: 35rem;
 }
 .teaching-learning, .facilities, .achievements, .aboutus {
   box-shadow: 0 2px 0 rgba(0,0,0,.4);
