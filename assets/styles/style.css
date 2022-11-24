@@ -275,8 +275,8 @@ nav.nav-changed{
 }
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 200px [firstcolumn-end secondcolumn-start] 200px [secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 400px [firstrow-end secondrow-start] 400px [secondrow-end content-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 400px [firstcolumn-end secondcolumn-start] 400px [secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 600px [firstrow-end secondrow-start] 600px [secondrow-end content-end];
   grid-gap: 2rem;
   padding: 3rem 6rem;
   background-color: #f2f2f2;
