@@ -94,11 +94,12 @@ body:not(footer){
   font-size: var(--biggest-font);
   font-weight: 600;
   color: var(--prime-color);
-  text-shadow: 0 0 4px rgba(0,0,0,.4);
+  text-shadow: 0 3px 3px rgba(0,0,0,.4);
 }
 .image-data span {
   font-size: var(--h2-font);
   font-weight: 200;
+  text-shadow: 0 0 3px rgba(0,0,0,0.3);
   color: var(--white-color);
 }
 .nav-btn {
