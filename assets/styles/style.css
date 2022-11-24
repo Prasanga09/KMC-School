@@ -18,6 +18,8 @@ html{
   --tran--5: 0.5s;
   --tran--8: 0.8s;
   --body-font: 'Poppins', sans-serif;
+  --biggest-font: 5.6rem;
+  --bigger-font: 5rem;
   --big-font: 4rem;
   --h1-font: 3.6rem;
   --h2-font: 2.4rem;
@@ -82,16 +84,16 @@ body:not(footer){
 }
 .slide .image-data {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 20%;
   text-align: center;
   width: 100%;
   z-index: 100;
 }
 .image-data h2 {
-  font-size: var(--big-font);
+  font-size: var(--biggest-font);
   font-weight: 600;
-  color: var(--white-color);
+  color: var(--prime-color);
 }
 .image-data span {
   font-size: var(--h2-font);
