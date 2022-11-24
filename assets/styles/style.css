@@ -91,6 +91,11 @@ body:not(footer){
 }
 .image-data h2 {
   font-size: var(--big-font);
+  font-weight: 600;
+  color: var(--white-color);
+}
+.image-data span {
+  font-size: var(--h2-font);
   font-weight: 200;
   color: var(--white-color);
 }
