@@ -284,10 +284,10 @@ nav.nav-changed{
 }
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 2fr [firstcolumn-end secondcolumn-start] 2fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 1fr [firstrow-end secondrow-start] 1fr[secondrow-end content-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr[secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 1fr 1fr [firstrow-end secondrow-start] 1fr 1fr[secondrow-end content-end];
   grid-gap: 2rem;
-  padding: 2rem 4rem;
+  padding: 3rem 6rem;
   background-color: #f2f2f2;
 } 
 .content > div h3 {
