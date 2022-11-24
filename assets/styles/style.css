@@ -222,16 +222,6 @@ nav .navbar .links li a {
   transform: rotate(180deg);
 }
 
-nav .navbar .links li .arrow {
-  height: 100%;
-  width: 2.2rem;
-  line-height: 7rem;
-  text-align: center;
-  display: inline-block;
-  color: var(--white-color);
-  transition: all 0.3s ease;
-}
-
 @media (max-width:920px) {
   nav .navbar {
     max-width: 100%;
@@ -279,16 +269,6 @@ nav .navbar .links li .arrow {
   nav .navbar .links li {
     display: block;
   }
-
-  .links li:hover .htmlcss-arrow,
-  .links li:hover .js-arrow {
-    transform: rotate(0deg);
-  }
-
-  .navbar .nav-links.show1 .links .htmlcss-arrow,
-  .navbar .nav-links.show3 .links .js-arrow {
-    transform: rotate(180deg);
-  }
 }
 nav.nav-changed{
   background-color: var(--white-color);
@@ -302,14 +282,10 @@ nav.nav-changed{
   color: var(--prime-color-hover);
   transition: var(--tran--2);
 }
-.nav-changed .navbar .links li a:hover ~ .arrow{
-	color: var(--prime-color-hover);
-	transition: var(--tran--2);
-}
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 2fr [firstrow-end secondrow-start] 2fr[secondrow-end content-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 2fr [firstcolumn-end secondcolumn-start] 2fr[secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 1fr [firstrow-end secondrow-start] 1fr[secondrow-end content-end];
   grid-gap: 2rem;
   padding: 2rem 4rem;
   background-color: #fff;
