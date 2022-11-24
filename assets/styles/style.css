@@ -84,7 +84,6 @@ body:not(footer){
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 425%);
   text-align: center;
   width: 100%;
   z-index: 100;
