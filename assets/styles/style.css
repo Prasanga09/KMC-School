@@ -264,8 +264,7 @@ nav .navbar .links li a {
 }
 nav.nav-changed{
   background-color: var(--white-color);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-  transition: 1s;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
 }
 .nav-changed .navbar .logo_sec .logo_text, .nav-changed .navbar .links li .arrow, .nav-changed .navbar .links li a{
   color: var(--text-color);
@@ -274,13 +273,10 @@ nav.nav-changed{
   color: var(--prime-color-hover);
   transition: var(--tran--2);
 }
-.nav-changed .navbar .links li a:visited {
-  color: var(--prime-color-hover);
-}
 .content {
   display: grid;
-  grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 1fr [firstrow-end secondrow-start] 1fr [secondrow-end content-end];
+  grid-template-columns: [contentwidth-start firstcolumn-start] 200px [firstcolumn-end secondcolumn-start] 200px [secondcolumn-end contentwidth-end];
+  grid-template-rows: [content-start firstrow-start] 400px [firstrow-end secondrow-start] 400px [secondrow-end content-end];
   grid-gap: 2rem;
   padding: 3rem 6rem;
   background-color: #f2f2f2;
@@ -289,7 +285,10 @@ nav.nav-changed{
 .content > div h3 {
   margin-bottom: 25px;
 }
-.aboutus, .teaching-learning, .facilities, .achievements{
+.aboutus, 
+.teaching-learning, 
+.facilities, 
+.achievements{
   text-align: justify;
   border-radius: 8px;
   font-size: var(--normal-font);
@@ -297,8 +296,11 @@ nav.nav-changed{
   line-height: 1.7;
   background-color: #fff;
 }
-.teaching-learning, .facilities, .achievements, .aboutus {
-  box-shadow: 0 0 3px rgba(0,0,0,.4);
+.teaching-learning, 
+.facilities, 
+.achievements, 
+.aboutus {
+  box-shadow: 0 4px 3px rgba(0,0,0,.4);
   animation: fadeIn 4s;
 }
 
