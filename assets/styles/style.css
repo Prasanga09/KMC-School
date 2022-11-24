@@ -98,7 +98,7 @@ body:not(footer){
 }
 .image-data span {
   font-size: var(--h2-font);
-  font-weight: 200;
+  font-weight: 350;
   text-shadow: 0 2px 3px rgba(0,0,0,0.3);
   color: var(--white-color);
 }
