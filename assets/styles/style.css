@@ -99,7 +99,7 @@ body:not(footer){
 .image-data span {
   font-size: var(--h2-font);
   font-weight: 200;
-  text-shadow: 0 0 3px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 3px rgba(0,0,0,0.3);
   color: var(--white-color);
 }
 .nav-btn {
@@ -272,7 +272,7 @@ nav .navbar .links li a {
 }
 nav.nav-changed{
   background-color: var(--white-color);
-  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.4);
 }
 .nav-changed .navbar .logo_sec .logo_text, .nav-changed .navbar .links li .arrow, .nav-changed .navbar .links li a{
   color: var(--text-color);
