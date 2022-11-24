@@ -282,10 +282,13 @@ nav.nav-changed{
   color: var(--prime-color-hover);
   transition: var(--tran--2);
 }
+.nav-changed .navbar .links li a:active {
+  color: var(--prime-color-hover);
+}
 .content {
   display: grid;
   grid-template-columns: [contentwidth-start firstcolumn-start] 1fr [firstcolumn-end secondcolumn-start] 1fr[secondcolumn-end contentwidth-end];
-  grid-template-rows: [content-start firstrow-start] 1fr 1fr [firstrow-end secondrow-start] 1fr 1fr[secondrow-end content-end];
+  grid-template-rows: [content-start firstrow-start] 1fr [firstrow-end secondrow-start] 1fr [secondrow-end content-end];
   grid-gap: 2rem;
   padding: 3rem 6rem;
   background-color: #f2f2f2;
