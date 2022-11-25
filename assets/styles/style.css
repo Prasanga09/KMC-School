@@ -346,6 +346,8 @@ nav.nav-changed{
   justify-content: center;
   text-align: center;
   margin-top: 25px;
+  color: var(--white-color);
+  background-color: #0A0A0A;
 }
 .vidarea h3 {
   font-size: 30px;
@@ -356,6 +358,8 @@ nav.nav-changed{
     height: 500px;
     text-align: center;
     margin: 30px 25px 55px;
+    background-color: #0A0A0A;
+    color: var(--white-color);
 }
 .contain-box h1 {
     text-transform: uppercase;
