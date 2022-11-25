@@ -174,10 +174,10 @@ nav .navbar .logo_sec{
   justify-content: space-between;
   display: flex;
   text-align: left;
-  margin: auto;
 }
 
 nav .navbar .logo_sec .logo{
+  display: inherit;
   width: 9rem;
   height: 7rem;
   align-self: left;
