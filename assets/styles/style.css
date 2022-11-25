@@ -101,7 +101,7 @@ body:not(footer){
   font-size: var(--h2-font);
   font-weight: 350;
   text-shadow: 0 2px 3px rgba(0,0,0,0.3);
-  color: #22303C;
+  color: var(--white-color);
 }
 .nav-btn {
   height: 5rem !important;
@@ -444,7 +444,7 @@ ul{
 	list-style: none;
 }
 .footer{
-  background-color: #f2f2f2;
+  background-color: #24262b;
   padding: 70px 0;
 }
 .footer-col{
@@ -453,7 +453,7 @@ ul{
 }
 .footer-col h4{
 	font-size: 18px;
-	color: var(--text-color);
+	color: #bbb;
 	text-transform: capitalize;
 	margin-bottom: 3.5rem;
 	font-weight: var(--medium-font);
@@ -476,7 +476,7 @@ ul{
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 1rem;
-  color: #333;
+  color: #bbb;
   font-weight: var(--regular-font);
   font-size: var(--normal-font);
 }
@@ -484,19 +484,19 @@ ul{
 .footer-col ul li a{
 	text-transform: capitalize;
 	text-decoration: none;
-	color: var(--text-color);
+	color: #bbb;
 	display: block;
 	transition: all 0.3s ease;
 }
 .footer-col ul li a:hover{
-	color: #ccc;
+	color: var(--white-color);
 	padding-left: 8px;
 }
 .footer-col .social-links a{
 	display: inline-block;
 	height: 4rem;
 	width: 4rem;
-	background-color: var(--text-color);
+	background-color: var(--white-color);
   font-size: var(--normal-font);
 	margin:0 10px 10px 0;
 	text-align: center;
@@ -512,7 +512,7 @@ ul{
 	background-color: #FF0000;
 }
 .footer-col .address, .email-2{
-	color: #333;
+	color: #bbb;
   cursor: inherit;
 	text-decoration: none;
 }
