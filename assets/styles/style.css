@@ -502,7 +502,7 @@ ul{
 	text-align: center;
 	line-height: 4rem;
 	border-radius: 50%;
-	color: var(--white-color);
+	color: #0A0A0A;
 	transition: all 0.5s ease;
 }
 .footer-col .social-links .facebook:hover{
