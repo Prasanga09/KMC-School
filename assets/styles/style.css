@@ -172,13 +172,14 @@ nav .navbar {
 nav .navbar .logo_sec{
   display: flex;
   text-align: left;
+  align-self: start;
+  align-items: start
 }
 
 nav .navbar .logo_sec .logo{
   display: inherit;
   width: 9rem;
   height: 7rem;
-  align-self: start;
 }
 
 nav .navbar .logo_sec .logo_text{
