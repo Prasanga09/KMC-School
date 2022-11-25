@@ -336,7 +336,7 @@ nav.nav-changed{
   grid-row: secondrow;
 }
 .line {
-  margin-top: 35px;
+  margin-top: 25px;
   height: 5px;
   background-color: var(--prime-color);
   width: 100vw;
@@ -348,7 +348,6 @@ nav.nav-changed{
   text-align: center;
   margin-top: 25px;
   color: var(--white-color);
-  background-color: #0A0A0A;
 }
 .vidarea h3 {
   font-size: 30px;
