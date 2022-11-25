@@ -107,12 +107,14 @@ body:not(footer){
   height: 5rem !important;
   width: 5rem !important;
   border-radius: 50% !important;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #242526;
+  opacity: 0.3;
   visibility: visible;
   transition: var(--tran--2);
 }
 .nav-btn:hover{
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: #242526;
+  opacity: 0.4;
 }
 .swiper-button-next {
   right: 3rem;
