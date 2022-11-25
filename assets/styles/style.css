@@ -89,6 +89,7 @@ body:not(footer){
   left: 0%;
   text-align: center;
   width: 100%;
+  animation: fadeIn 4s;
   z-index: 100;
 }
 .image-data h2 {
@@ -314,7 +315,6 @@ nav.nav-changed{
 .achievements, 
 .aboutus {
   box-shadow: 0 3px 3px rgba(0,0,0,.4);
-  animation: fadeIn 4s;
 }
 
 .aboutus {
