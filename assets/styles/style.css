@@ -183,8 +183,7 @@ nav .navbar .logo_sec .logo{
 }
 
 nav .navbar .logo_sec .logo_text{
-  margin-left: -6rem;
-  margin-right: 10rem;
+  margin: 1rem 2rem;
   color: var(--white-color);
   display: flex;
   position: relative;
@@ -201,13 +200,14 @@ nav .navbar .nav-links {
 
 nav .navbar .links {
   display: flex;
+  gap: 4rem;
 }
 
 nav .navbar .links li {
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   list-style: none;
   padding: 0 14px;
 }
