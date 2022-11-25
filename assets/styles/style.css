@@ -183,7 +183,6 @@ nav .navbar .logo_sec .logo{
 }
 
 nav .navbar .logo_sec .logo_text{
-  justify-content: space-between;
   margin-left: -6rem;
   margin-right: 10rem;
   color: var(--white-color);
@@ -192,7 +191,6 @@ nav .navbar .logo_sec .logo_text{
   font-weight: bold;
   font-size: 3rem;
   overflow: hidden;
-  display: inline-block;
   cursor: pointer;
   text-transform: uppercase;
 }
