@@ -129,7 +129,7 @@ body:not(footer){
   opacity: 1 !important;
   height: 15px !important;
   width: 15px!important;
-  background-color: #bbbbbb !important;
+  background-color: #242526 !important;
   visibility: hidden;
 }
 .swiper-pagination-bullet-active {
