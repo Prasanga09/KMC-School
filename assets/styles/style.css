@@ -180,6 +180,7 @@ nav .navbar .logo_sec .logo{
   display: inherit;
   width: 9rem;
   height: 7rem;
+  margin-left: -5rem;
 }
 
 nav .navbar .logo_sec .logo_text{
