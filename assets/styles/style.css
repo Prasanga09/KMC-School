@@ -89,7 +89,7 @@ body:not(footer){
   left: 0%;
   text-align: center;
   width: 100%;
-  animation: fadeIn 4s;
+  animation: fadeIn 3s;
   z-index: 100;
 }
 .image-data h2 {
@@ -538,7 +538,7 @@ ul{
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(-5%);
+        transform: translateY(-3%);
     }
     to {
         opacity: 1;
