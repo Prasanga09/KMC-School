@@ -173,7 +173,7 @@ nav .navbar .logo_sec{
   display: flex;
   text-align: left;
   align-self: start;
-  align-items: start
+  align-items: start;
 }
 
 nav .navbar .logo_sec .logo{
@@ -196,18 +196,19 @@ nav .navbar .logo_sec .logo_text{
 nav .navbar .nav-links {
   line-height: 7rem;
   height: 100%;
+  display: inherit;
+  align-items: center;
+  justify-content: center;
 }
 
 nav .navbar .links {
   display: flex;
-  gap: 4rem;
+  gap: 2.5rem;
 }
 
 nav .navbar .links li {
   position: relative;
   display: flex;
-  align-items: center;
-  justify-content: center;
   list-style: none;
   padding: 0 14px;
 }
