@@ -108,13 +108,13 @@ body:not(footer){
   width: 5rem !important;
   border-radius: 50% !important;
   background-color: #242526;
-  opacity: 0.3;
+  opacity: 0.5;
   visibility: visible;
   transition: var(--tran--2);
 }
 .nav-btn:hover{
   background-color: #242526;
-  opacity: 0.4;
+  opacity: 0.6;
 }
 .swiper-button-next {
   right: 3rem;
