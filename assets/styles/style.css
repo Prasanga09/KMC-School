@@ -373,9 +373,6 @@ nav.nav-changed{
     display: flex;
     align-self: center;
 }
-input:not(#message-details)::placeholder::after{
-    content: '*';
-}
 .contain-box #form #details {
     width: 280px;
     height: 40px;
