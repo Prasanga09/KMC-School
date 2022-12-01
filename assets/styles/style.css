@@ -379,7 +379,8 @@ nav.nav-changed{
     border-radius: 5px;
     border: 1.35px solid #ccc;
     padding: 5px 8px;
-    margin: 15px 5px 20px
+    margin: 15px 5px 20px;
+    outline: none;
 }
 .contain-box #form #message-details {
     height: 40px;
@@ -387,6 +388,7 @@ nav.nav-changed{
     border: 1.35px solid #ccc;
     width: 575px;
     padding: 5px 8px;
+    outline: none;
 }
 .contain-box #form textarea {
     width: 575px;
