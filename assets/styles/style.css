@@ -401,7 +401,12 @@ nav.nav-changed{
     margin-top: 25px;
     border-radius: 5px;
     border: 1.35px solid #ccc;
+    outline: none;
     font-family: 'Poppins', sans-serif;
+}
+.contain-box #form textarea:focus {
+    border-bottom: 2px solid var(--prime-color);
+    transition: .5s ease-in;
 }
 .contain-box #form input[type="submit"] {
     height: 40px;
