@@ -324,6 +324,9 @@ nav.nav-changed{
   height: 40rem;
   width: 65rem;
 }
+.kmcvidclip:hover {
+  transform: scale(1.5);
+}
 .teaching-learning {
   grid-column: secondcolumn;
   grid-row: firstrow;
