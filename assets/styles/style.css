@@ -353,6 +353,7 @@ nav.nav-changed{
   justify-content: center;
   text-align: center;
   margin-top: 25px;
+  overflow: hidden;
   color: var(--white-color);
 }
 .vidarea h3 {
