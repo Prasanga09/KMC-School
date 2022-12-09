@@ -323,6 +323,8 @@ nav.nav-changed{
 .kmcvidclip {
   height: 40rem;
   width: 65rem;
+  overflow: hidden;
+  transition: transform .5s;
 }
 .kmcvidclip:hover {
   transform: scale(1.5);
